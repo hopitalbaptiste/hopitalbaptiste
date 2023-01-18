@@ -51,10 +51,15 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class=""  style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
-    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;" class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
-      href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
-    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225) 01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
+  <section id="topbar" class=""
+    style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
+    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;"
+        class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
+        href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
+    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;"
+        class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225)
+        01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a
+        style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
     <div style="font-weight: bold;">Les urgences sont ouvertes 24h/24 et 7j/7</div>
   </section>
 
@@ -149,8 +154,9 @@
                 <a href="Cabinet-opthalmologie.html" style="color: black;">Cabinet d'Ophtalmologie</a>
               </button><br><br>
               <button class="col-md-12 btn btn-outline-warning" style="color:black">
-                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et spirituelles</a>
-            </button><br><br>
+                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et
+                  spirituelles</a>
+              </button><br><br>
 
             </div><!-- End sidebar -->
 
@@ -213,52 +219,129 @@
                     align-items: center;
                     justify-content: space-between;
                   }
-                  .list-group-item-action.active{
+
+                  .list-group-item-action.active {
                     background-color: #ffc107;
                   }
                 </style>
-                    
-            <div class="row" >
-              <div class="col-4">
-                <div class="list-group" id="list-tab" role="tablist">
-                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
-                    href="#list-home" role="tab" aria-controls="list-home">Champ visuel</a>
-                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                    href="#list-profile" role="tab" aria-controls="list-profile">Fond d'oeil</a>
-                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-                    href="#list-messages" role="tab" aria-controls="list-messages">Refractrometrie</a>
-                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-                    href="#list-settings" role="tab" aria-controls="list-settings">Chirurgie de Cataracte et
-                    pterygion</a>
-                </div>
-              </div>
-              <div class="col-8 overflow-auto" style="max-height: 164px; background-color:beige;">
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                    aria-labelledby="list-home-list">
-                    L'examen du champ visuel est très important lorsque l'on soupçonne
-                    certaines pathologies telles
-                    que la Dégénérescence Maculaire Liée à l'Âge (DMLA) par exemple. Dans le cadre de cette atteinte
-                    oculaire, des points dits « aveugles » peuvent apparaître dans le champ visuel central de l'œil
-                    ou
-                    des yeux.</div>
-                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                    Le fond d'œil est un examen ophtalmologique destiné à étudier les structures de l'œil à
-                    l'arrière
-                    du cristallin, et plus particulièrement la rétine. Il sert à dépister certaines atteintes
-                    oculaires (rétinopathie diabétique, dégénérescence maculaire liée à l'âge etc.) ou à suivre leur
-                    évolution.
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <link rel="stylesheet"
+                  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                      Champ visuel
+                    </a>
                   </div>
-                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                    La réfractométrie est une technique utilisée pour mesurer la réfraction de l'œil, c'est-à-dire sa capacité à focaliser la lumière. Cette technique permet de détecter les troubles de la vision tels que la myopie, l'hypermétropie et l'astigmatisme.
-                  </div>
-                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                    La chirurgie de la cataracte : Il s'agit d'une intervention pour remplacer le cristallin naturel devenu opaque par un implant intraoculaire pour améliorer la vision. <br><br>
-                    La chirurgie de pterygion : Il s'agit d'une intervention visant à enlever une croissance anormale de la conjonctive qui se développe sur la cornée, appelée pterygion
+                  <div id="collapseOne" class="collapse show">
+                    <div class="card-body">
+                      L'examen du champ visuel est très important lorsque l'on soupçonne
+                      certaines pathologies telles
+                      que la Dégénérescence Maculaire Liée à l'Âge (DMLA) par exemple. Dans le cadre de cette atteinte
+                      oculaire, des points dits « aveugles » peuvent apparaître dans le champ visuel central de l'œil
+                      ou
+                      des yeux.
+                    </div>
                   </div>
                 </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                      Fond d'oeil
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse">
+                    <div class="card-body">
+                      Le fond d'œil est un examen ophtalmologique destiné à étudier les structures de l'œil à
+                      l'arrière
+                      du cristallin, et plus particulièrement la rétine. Il sert à dépister certaines atteintes
+                      oculaires (rétinopathie diabétique, dégénérescence maculaire liée à l'âge etc.) ou à suivre leur
+                      évolution.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseThree">
+                      Refractrometrie
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse">
+                    <div class="card-body">
+                      La réfractométrie est une technique utilisée pour mesurer la réfraction de l'œil, c'est-à-dire sa
+                      capacité à focaliser la lumière. Cette technique permet de détecter les troubles de la vision tels
+                      que la myopie, l'hypermétropie et l'astigmatisme.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseFour">
+                      Chirurgie de Cataracte et
+                      pterygion
+                    </a>
+                  </div>
+                  <div id="collapseFour" class="collapse">
+                    <div class="card-body">
+                      La chirurgie de la cataracte : Il s'agit d'une intervention pour remplacer le cristallin naturel
+                      devenu opaque par un implant intraoculaire pour améliorer la vision. <br><br>
+                      La chirurgie de pterygion : Il s'agit d'une intervention visant à enlever une croissance anormale
+                      de la conjonctive qui se développe sur la cornée, appelée pterygion
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+<!-- 
+              <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                      href="#list-home" role="tab" aria-controls="list-home">Champ visuel</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                      href="#list-profile" role="tab" aria-controls="list-profile">Fond d'oeil</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                      href="#list-messages" role="tab" aria-controls="list-messages">Refractrometrie</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                      href="#list-settings" role="tab" aria-controls="list-settings">Chirurgie de Cataracte et
+                      pterygion</a>
+                  </div>
+                </div>
+                <div class="col-8 overflow-auto" style="max-height: 164px; background-color:beige;">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                      aria-labelledby="list-home-list">
+                      L'examen du champ visuel est très important lorsque l'on soupçonne
+                      certaines pathologies telles
+                      que la Dégénérescence Maculaire Liée à l'Âge (DMLA) par exemple. Dans le cadre de cette atteinte
+                      oculaire, des points dits « aveugles » peuvent apparaître dans le champ visuel central de l'œil
+                      ou
+                      des yeux.</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                      Le fond d'œil est un examen ophtalmologique destiné à étudier les structures de l'œil à
+                      l'arrière
+                      du cristallin, et plus particulièrement la rétine. Il sert à dépister certaines atteintes
+                      oculaires (rétinopathie diabétique, dégénérescence maculaire liée à l'âge etc.) ou à suivre leur
+                      évolution.
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                      La réfractométrie est une technique utilisée pour mesurer la réfraction de l'œil, c'est-à-dire sa
+                      capacité à focaliser la lumière. Cette technique permet de détecter les troubles de la vision tels
+                      que la myopie, l'hypermétropie et l'astigmatisme.
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                      La chirurgie de la cataracte : Il s'agit d'une intervention pour remplacer le cristallin naturel
+                      devenu opaque par un implant intraoculaire pour améliorer la vision. <br><br>
+                      La chirurgie de pterygion : Il s'agit d'une intervention visant à enlever une croissance anormale
+                      de la conjonctive qui se développe sur la cornée, appelée pterygion
+                    </div>
+                  </div>
+                </div>
+              </div> -->
         </article><!-- End blog entry -->
       </div>
     </section><!-- End Blog Section -->

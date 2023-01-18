@@ -1,13 +1,15 @@
-/**
-* Template Name: Eterna - v4.10.0
-* Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.card-header{
+  text-align: center;
+}
+.card-body{
+  background-color: beige;
+}
 ::-webkit-scrollbar{
   background-color: white;
 }

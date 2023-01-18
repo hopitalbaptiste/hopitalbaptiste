@@ -45,10 +45,15 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class=""  style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
-    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;" class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
-      href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
-    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225) 01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
+  <section id="topbar" class=""
+    style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
+    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;"
+        class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
+        href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
+    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;"
+        class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225)
+        01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a
+        style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
     <div style="font-weight: bold;">Les urgences sont ouvertes 24h/24 et 7j/7</div>
   </section>
 
@@ -142,8 +147,9 @@
                 <a href="Cabinet-opthalmologie.html" style="color: black;">Cabinet d'Ophtalmologie</a>
               </button><br><br>
               <button class="col-md-12 btn btn-outline-warning" style="color:black">
-                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et spirituelles</a>
-            </button><br><br>
+                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et
+                  spirituelles</a>
+              </button><br><br>
             </div><!-- End sidebar -->
 
           </div><!-- End blog sidebar -->
@@ -207,7 +213,67 @@
                 background-color: #0dcaf0;
               }
             </style>
-            <p style="display: flex; align-items: center;justify-content: space-around;">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Radiologie
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show">
+                  <div class="card-body">
+                    Les techniques de radiologie se pratiquent pour détecter, préciser et parfois soigner une affection
+                    (fracture, malformation, corps étranger, tumeur etc.)
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Echographie
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse">
+                  <div class="card-body">
+                    L'échographie est un examen d'imagerie médicale qui utilise les ultrasons. Surtout connue pour être
+                    un examen de grossesse, l'échographie permet d'examiner de nombreux tissus mous des organes:
+                    cœur, foie, rate, pancréas, reins, prostate, vessie, ganglions, etc.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Endoscopie
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse">
+                  <div class="card-body">
+                    L'endoscopie ou fibroscopie est une méthode d'exploration visuelle médicale ou industrielle de
+                    l'intérieur d'une cavité inaccessible à l'œil. L'instrument utilisé, appelé endoscope ou fibroscope.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    Electrocardiogramme (ECG)
+                  </a>
+                </div>
+                <div id="collapseFour" class="collapse">
+                  <div class="card-body">
+                    L'ECG est l'enregistrement de l'activité électrique du coeur et permet de detecter certaines
+                    maladies cardiaques.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <p style="display: flex; align-items: center;justify-content: space-around;">
             <div class="row" style="font-size: 20px;">
               <div class="col-lg-4">
                 <div class="list-group" id="list-tab" role="tablist">
@@ -238,11 +304,11 @@
                   </div>
                   <div class="tab-pane fade" id="list-electro" role="tabpanel" aria-labelledby="list-electro-list">
                     L'ECG est l'enregistrement de l'activité électrique du coeur et permet de detecter certaines
-                    maladies cardiaques.                  
+                    maladies cardiaques.
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
         </article><!-- End blog entry -->
       </div>
     </section><!-- End Blog Section -->
