@@ -806,6 +806,9 @@ section {
 .imagerie{
   background-color: rgb(196, 251, 114)
 }
+.act-cult-spir{
+  background-color: rgb(10, 190, 216);
+}
 
 .services .icon-box .icon i {
   color: #fff;
@@ -885,15 +888,15 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 
-.clients .swiper-slide img:hover {
+/* .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Counts

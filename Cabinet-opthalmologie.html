@@ -37,33 +37,25 @@
   <link href="assets/vendor/bootstrap/css/nav.css" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LVDKXSB1NH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVDKXSB1NH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-LVDKXSB1NH');
-</script>
+    gtag('config', 'G-LVDKXSB1NH');
+  </script>
 </head>
 
 
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center" style="background-color: rgb(130, 236, 178);">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@example.com">hospital.b.f@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>(+225) 01 01 55 47 06 ou (+225) 01 52 60 44 92
-          </span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
-      </div>
-    </div>
+  <section id="topbar" class=""  style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
+    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;" class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
+      href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
+    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225) 01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
+    <div style="font-weight: bold;">Les urgences sont ouvertes 24h/24 et 7j/7</div>
   </section>
 
   <!-- ======= Header ======= -->
@@ -156,6 +148,9 @@
               <button class="col-md-12 btn btn-warning" style="color:black">
                 <a href="Cabinet-opthalmologie.html" style="color: black;">Cabinet d'Ophtalmologie</a>
               </button><br><br>
+              <button class="col-md-12 btn btn-outline-warning" style="color:black">
+                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et spirituelles</a>
+            </button><br><br>
 
             </div><!-- End sidebar -->
 
@@ -166,7 +161,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/Images/Photos/cabinet.JPG" alt="" class="img-fluid">
+                <img src="assets/Images/Photos/cabinet.JPG" style="opacity: 0.8;" alt="" class="img-fluid">
               </div>
 
               <div class="entry-content">
@@ -206,7 +201,6 @@
             </div>
             <div>
               <p>
-                <!-- L'ophtalmologie est la branche de la médecine chargée du traitement des maladies de l'oeil et de ses annexes. C'est une spécialité médico-chirurgicale. L'Hôpital Baptiste de Ferkessedougou dispose de l'une des unités de consultation ophtalmologique les plus performantes de la ville. Cette unité permet de prendre en charge les pathologies ophtalmologiques de chaque âge. -->
                 Le service d'ophtalmologie de HBF prend en charge toutes les consultations ophtalmologiques. Grâce à la
                 mise en commun des moyens techniques, le service est à la pointe du progrès pour le diagnostic de toutes
                 pathologies occulaires(Glaucome,Cataracte,Myopie,Presbytie).
@@ -214,66 +208,56 @@
               <p>
                 Nous réalisons les examens et chirurgie suivantes: <br>
                 <style>
-                  .actes {
+                  .analyses {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                   }
+                  .list-group-item-action.active{
+                    background-color: #ffc107;
+                  }
                 </style>
-              <p class="actes">
-                <a class="btn btn-warning" data-bs-toggle="collapse" href="#champvisuel" role="button"
-                  aria-expanded="false" aria-controls="champvisuel">Champ visuel</a>
-                <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#fondoeil"
-                  aria-expanded="false" aria-controls="fondoeil">Fond d'oeil</button>
-                <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#refracto"
-                  aria-expanded="false" aria-controls="refracto">Réfractrometrie</button>
-                <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#chirurgie"
-                  aria-expanded="false" aria-controls="chirurgie">Chirurgie de Cataracte et Ptérygion</button>
-              </p>
-              <div class="row">
-                <div class="col">
-                  <div class="collapse multi-collapse" id="champvisuel">
-                    <div class="card card-body">
-                      L'examen du champ visuel est très important lorsque l'on soupçonne certaines pathologies telles
-                      que la Dégénérescence Maculaire Liée à l'Âge (DMLA) par exemple. Dans le cadre de cette atteinte
-                      oculaire, des points dits « aveugles » peuvent apparaître dans le champ visuel central de l'œil ou
-                      des yeux.
-                    </div>
-                  </div>
+                    
+            <div class="row" >
+              <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                    href="#list-home" role="tab" aria-controls="list-home">Champ visuel</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="list-profile">Fond d'oeil</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="list-messages">Refractrometrie</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="list-settings">Chirurgie de Cataracte et
+                    pterygion</a>
                 </div>
-                <div class="col">
-                  <div class="collapse multi-collapse" id="fondoeil">
-                    <div class="card card-body">
-                      Le fond d'œil est un examen ophtalmologique destiné à étudier les structures de l'œil à l'arrière
-                      du cristallin, et plus particulièrement la rétine. Il sert à dépister certaines atteintes
-                      oculaires (rétinopathie diabétique, dégénérescence maculaire liée à l'âge etc.) ou à suivre leur
-                      évolution.
-                    </div>
+              </div>
+              <div class="col-8 overflow-auto" style="max-height: 164px; background-color:beige;">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                    aria-labelledby="list-home-list">
+                    L'examen du champ visuel est très important lorsque l'on soupçonne
+                    certaines pathologies telles
+                    que la Dégénérescence Maculaire Liée à l'Âge (DMLA) par exemple. Dans le cadre de cette atteinte
+                    oculaire, des points dits « aveugles » peuvent apparaître dans le champ visuel central de l'œil
+                    ou
+                    des yeux.</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    Le fond d'œil est un examen ophtalmologique destiné à étudier les structures de l'œil à
+                    l'arrière
+                    du cristallin, et plus particulièrement la rétine. Il sert à dépister certaines atteintes
+                    oculaires (rétinopathie diabétique, dégénérescence maculaire liée à l'âge etc.) ou à suivre leur
+                    évolution.
                   </div>
-                </div>
-                <div class="col">
-                  <div class="collapse multi-collapse" id="refracto">
-                    <div class="card card-body">
-                      La réfractométrie permet le diagnostic des troubles de la réfraction (myopie, hypermétropie,
-                      astigmatisme).
-                    </div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    La réfractométrie est une technique utilisée pour mesurer la réfraction de l'œil, c'est-à-dire sa capacité à focaliser la lumière. Cette technique permet de détecter les troubles de la vision tels que la myopie, l'hypermétropie et l'astigmatisme.
                   </div>
-                </div>
-                <div class="col">
-                  <div class="collapse multi-collapse" id="chirurgie">
-                    <div class="card card-body">
-                      la chirurgie permet de corriger la plupart des troubles visuels.
-                    </div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                    La chirurgie de la cataracte : Il s'agit d'une intervention pour remplacer le cristallin naturel devenu opaque par un implant intraoculaire pour améliorer la vision. <br><br>
+                    La chirurgie de pterygion : Il s'agit d'une intervention visant à enlever une croissance anormale de la conjonctive qui se développe sur la cornée, appelée pterygion
                   </div>
                 </div>
               </div>
-              </p>
-              <p class="section-title">
-                Nous vous attendons pour une consultation et bilan de votre vue, seule(e) en couple ou en famille.
-              </p>
-            </div>
-            <div class="section-title">
-              <h3></h3>
             </div>
         </article><!-- End blog entry -->
       </div>
@@ -368,7 +352,7 @@
       </div>
     </div>
 
-   
+
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i

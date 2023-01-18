@@ -37,33 +37,26 @@
   <link href="assets/vendor/bootstrap/css/nav.css" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LVDKXSB1NH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVDKXSB1NH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-LVDKXSB1NH');
-</script>
+    gtag('config', 'G-LVDKXSB1NH');
+  </script>
 </head>
 
 
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center" style="background-color: rgb(130, 236, 178);">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@example.com">hospital.b.f@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>(+225) 01 01 55 47 06 ou (+225) 01 52 60 44 92
-          </span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
-      </div>
-    </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class=""  style="background-color: rgb(130, 236, 178);display: flex;align-items: center;justify-content: space-around;">
+    <div style="display:flex;align-items:center;justify-content: center; "><i style="color: white;" class="bi bi-envelope d-flex align-items-center"></i><a style="color:white;font-weight: bold;"
+      href="mailto:hospital.b.f@gmail.com">hospital.b.f@gmail.com</a></i></div>
+    <div style="display:flex;align-items:center;justify-content: center;"><i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225 0101554706">(+225) 01 01 55 47 06</a> &nbsp;&nbsp;<i style="color: white;" class="bi bi-phone d-flex align-items-center "></i> <a style="color: white;" href="tel:+225  0152604492">(+225) 01 52 60 44 92</a></div>
+    <div style="font-weight: bold;">Les urgences sont ouvertes 24h/24 et 7j/7</div>
   </section>
 
   <!-- ======= Header ======= -->
@@ -156,6 +149,9 @@
               <button class="col-md-12 btn btn-outline-warning" style="color:black">
                 <a href="Cabinet-opthalmologie.html" style="color: black;">Cabinet d'Ophtalmologie</a>
               </button><br><br>
+              <button class="col-md-12 btn btn-outline-warning" style="color:black">
+                <a href="activite-culturelle-spirituelle.html" style="color: black;">Activités culturelles et spirituelles</a>
+            </button><br><br>
 
             </div><!-- End sidebar -->
 
@@ -166,7 +162,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/Images/ch2.jpg" alt="" class="img-fluid">
+                <img src="assets/Images/surgean.jpg" alt="" class="img-fluid">
               </div>
 
               <div class="entry-content">
@@ -207,7 +203,7 @@
             <div class="section-title">
               <h3 style="color:#198754">Une équipe pluridisciplinaire </h3>
               <p>
-                Une prise en charge globale vous est proposée par l'équipe Médecin Chef. <br>
+                Une prise en charge globale vous est proposée par l'équipe du Médecin Chef. <br>
                 Il est assisté par une équipe de professionnelle composé d'anesthésistes, d'infirmières,
                 d'aides-soignantes, d'agents de service hospitalier. <br>
                 En cas de besoins l'équipe médicale peut faire appel à des médecins spécialisés.
@@ -220,41 +216,43 @@
             <p>
               L'admission dans le service est soumise à la validation d'un chirurgien et deux types d'admission sont
               possibles : <br> <br>
+              <style>
+                .list-group-item-action.active {
+                  background-color: #198754;
+                }
+              </style>
             <p style="display: flex; align-items: center;justify-content: space-around;">
-              <a class="btn btn-success" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                aria-expanded="false" aria-controls="multiCollapseExample1">Admission programmée</a>
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                aria-controls="multiCollapseExample2">Admission en urgence</button>
-            </p>
-            <br>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                  <div class="card card-body">
-                    <b>Admission programmée</b> <br>
-                    Vous avez vu en consultaion le chirurgien qui doit vous prendre en charge. Il vous à informé de la
-                    chirurgie qu'il vous proposait. Vous aurez la possibilité lors de cette consultaion, de lui poser
-                    toutes les questions relatives à la chirurgie, votre hospitalisation, votre retour à domicile.
-                  </div>
+            <div class="row" style="font-size: 20px;">
+              <div class="col-lg-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                    href="#list-home" role="tab" aria-controls="list-home">Admission programmée</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="list-profile">Admission en urgence</a>
                 </div>
               </div>
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                  <div class="card card-body">
-                    <b>Admission en urgences</b> <br>
+              <div class="col-8 overflow-auto" style=" background-color:beige;">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                    aria-labelledby="list-home-list">
+                    Vous avez vu en consultaion le chirurgien qui doit vous prendre en charge. Il vous à informé de la
+                    necessité de la chirurgie
+                    chirurgie.
+                    Vous aurez la possibilité lors de cette consultaion, de lui poser
+                    toutes les questions relatives à la chirurgie, votre hospitalisation, votre retour à domicile.</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                     Vous pouvez être amené en chirurgie suite à un passage aux urgences, où l'urgentiste en accord avec
                     le chirurgien proposera une prise en charge chirurgicale adaptée à votre situation.
                   </div>
                 </div>
               </div>
             </div>
+            <br>
             </p>
           </div>
       </div>
+
       </article><!-- End blog entry -->
-      </div>
-      </div>
     </section><!-- End Blog Section -->
     <!-- <div style="display: flex; align-items: center; justify-content: center; ">
       <nav aria-label="Page navigation example">
@@ -341,7 +339,7 @@
       </div>
     </div>
 
-    
+
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
